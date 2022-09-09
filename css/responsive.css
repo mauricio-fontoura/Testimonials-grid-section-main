@@ -1,0 +1,81 @@
+@media only screen and (max-width:1368px) {
+
+    .wrapper {
+        padding-block: 0em;
+        gap: 0em 1.5em;
+    }
+   .card-name{
+    padding: 0.8em;
+   }
+}
+
+@media only screen and (max-width:1024px) {
+    .grid-span-2 {
+        grid-column: span 4;
+    }
+
+    .container-file-2 {
+        grid-column: span 4;
+    }
+
+    .container-file-3 {
+        grid-column: span 4;
+        grid-row: 3;
+    }
+
+    .container-file-5:last-child {
+        grid-row: 5;
+        grid-column: span 4;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .wrapper {
+        margin: 0;
+        padding: 1em;
+        gap: 0em;
+    }
+
+    .container-file-1 {
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-size: 32% 28%;
+        background-position-x: 87%;
+    }
+
+    .card-name {
+        gap: 2em;
+        font-size: 16px;
+    }
+
+    .description {
+        gap: 0em;
+    }
+
+    .description img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:393px) {
+    .container-file-1 {
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-size: 33.5% 25%;
+        background-position-x: 95%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .container-file-1 {
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-size: 30% 25%;
+        background-position-x: 95%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .container-file-1 {
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-size: 30.5% 24.4%;
+        background-position-x: 100%;
+    }
+}
